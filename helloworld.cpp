@@ -1,10 +1,10 @@
-#include <iostream>
-#include <string>
-int main(){
-cout << "Hello, world!";
-string name;
-cout << "Enter your name";
-cin << name;
-cout << "Helloworld from " << name;
-return 0;
+#include <iostream> // подключение библиотеки стандартных потоков ввода-вывода
+#include <string> // подключение объектов класса string
+int main(){ // точка входа в программу(функция main)
+cout << "Hello, world!"; // выводится сообщение
+string name; // создание строковой переменной
+cout << "Enter your name"; // выводится сообщение
+cin << name; // вводится имя
+cout << "Helloworld from " << name; // печатается сообщение с именем
+return 0; // возвращаемое значение функции
 }
